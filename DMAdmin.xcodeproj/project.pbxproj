@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27AC4C9F070B1D0A005D729A /* CreateDiskImage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27594BEB0E634D3A009AE50D /* Build configuration list for PBXAggregateTarget "CreateDiskImage" */;
+			buildPhases = (
+				27AC4CA2070B1DBA005D729A /* ShellScript */,
+			);
+			comments = "This target contains a single build phase that produces a disk image from the product listed in the DiskImageProductName build setting.  \n\nSee the comments for the shell script build phase for more information about available options.";
+			dependencies = (
+				27AC4CA1070B1D14005D729A /* PBXTargetDependency */,
+			);
+			name = CreateDiskImage;
+			productName = CreateDiskImage;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		272B7F3A072403A300AB3503 /* ArticleTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 276D0010071365AF008A0406 /* ArticleTest.h */; };
+		272B7F3B072403A600AB3503 /* ArticleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D0011071365AF008A0406 /* ArticleTest.m */; };
+		272B7F3F0724040900AB3503 /* DiskSessionTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 277440A10711A62800A523F0 /* DiskSessionTest.h */; };
+		272B7F400724040A00AB3503 /* DiskSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 277440A20711A62800A523F0 /* DiskSessionTest.m */; };
+		272B7F45072405A700AB3503 /* AsyncTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 277440C00711AE7D00A523F0 /* AsyncTest.h */; };
+		272B7F46072405A800AB3503 /* AsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 277440C10711AE7D00A523F0 /* AsyncTest.m */; };
+		272B7F48072405B400AB3503 /* MemberAccountTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F85E3C0710E8930082D3FC /* MemberAccountTest.h */; };
+		272B7F49072405B500AB3503 /* MemberAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F85E3D0710E8930082D3FC /* MemberAccountTest.m */; };
+		276D012507136ACF008A0406 /* UnitKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6B1ED07085D9B00FE6036 /* UnitKit.framework */; };
+		276D02820713738F008A0406 /* DotMacKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D011207136ABC008A0406 /* DotMacKit.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27AC4CA0070B1D14005D729A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = DMAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2717414B0712FABB00670D23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		276D0010071365AF008A0406 /* ArticleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTest.h; sourceTree = "<group>"; };
+		276D0011071365AF008A0406 /* ArticleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTest.m; sourceTree = "<group>"; };
+		276D011207136ABC008A0406 /* DotMacKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DotMacKit.framework; path = /Users/mike/Library/Frameworks/DotMacKit.framework; sourceTree = "<absolute>"; };
+		277440A10711A62800A523F0 /* DiskSessionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskSessionTest.h; sourceTree = "<group>"; };
+		277440A20711A62800A523F0 /* DiskSessionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskSessionTest.m; sourceTree = "<group>"; };
+		277440C00711AE7D00A523F0 /* AsyncTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTest.h; sourceTree = "<group>"; };
+		277440C10711AE7D00A523F0 /* AsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTest.m; sourceTree = "<group>"; };
+		27A6B1C607085D6F00FE6036 /* DMAdminTests.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMAdminTests.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A6B1C707085D6F00FE6036 /* DMAdminTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "DMAdminTests-Info.plist"; path = "/Users/mike/work/code/cocoa/DMAdmin/DMAdminTests-Info.plist"; sourceTree = "<absolute>"; };
+		27A6B1ED07085D9B00FE6036 /* UnitKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnitKit.framework; path = /Library/Frameworks/UnitKit.framework; sourceTree = "<absolute>"; };
+		27AC4BB3070B05A8005D729A /* build.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		27AC4BD0070B061D005D729A /* CreateDiskImage.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = CreateDiskImage.sh; sourceTree = "<group>"; };
+		27AC4CE8070B2940005D729A /* notify.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = notify.sh; sourceTree = "<group>"; };
+		27F85E3C0710E8930082D3FC /* MemberAccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberAccountTest.h; sourceTree = "<group>"; };
+		27F85E3D0710E8930082D3FC /* MemberAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberAccountTest.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* DMAdmin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAdmin_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DMAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A6B1C307085D6F00FE6036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276D012507136ACF008A0406 /* UnitKit.framework in Frameworks */,
+				276D02820713738F008A0406 /* DotMacKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276D011207136ABC008A0406 /* DotMacKit.framework */,
+				27A6B1ED07085D9B00FE6036 /* UnitKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DMAdmin.app */,
+				27A6B1C607085D6F00FE6036 /* DMAdminTests.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A6B1FB07085DB200FE6036 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				276D0010071365AF008A0406 /* ArticleTest.h */,
+				276D0011071365AF008A0406 /* ArticleTest.m */,
+				277440C00711AE7D00A523F0 /* AsyncTest.h */,
+				277440C10711AE7D00A523F0 /* AsyncTest.m */,
+				277440A10711A62800A523F0 /* DiskSessionTest.h */,
+				277440A20711A62800A523F0 /* DiskSessionTest.m */,
+				27F85E3C0710E8930082D3FC /* MemberAccountTest.h */,
+				27F85E3D0710E8930082D3FC /* MemberAccountTest.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		27AC4BB2070B0587005D729A /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				27AC4BD0070B061D005D729A /* CreateDiskImage.sh */,
+				27AC4CE8070B2940005D729A /* notify.sh */,
+				27AC4BB3070B05A8005D729A /* build.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DMAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				27A6B1FB07085DB200FE6036 /* Tests */,
+				27AC4BB2070B0587005D729A /* Scripts */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			comments = "Dot Mac Kit admin utility";
+			name = DMAdmin;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DMAdmin_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27A6B1C707085D6F00FE6036 /* DMAdminTests-Info.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27A6B1C007085D6F00FE6036 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272B7F3A072403A300AB3503 /* ArticleTest.h in Headers */,
+				272B7F3F0724040900AB3503 /* DiskSessionTest.h in Headers */,
+				272B7F45072405A700AB3503 /* AsyncTest.h in Headers */,
+				272B7F48072405B400AB3503 /* MemberAccountTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27A6B1C507085D6F00FE6036 /* DMAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27594BEA0E634D3A009AE50D /* Build configuration list for PBXNativeTarget "DMAdminTests" */;
+			buildPhases = (
+				27A6B1C007085D6F00FE6036 /* Headers */,
+				27A6B1C107085D6F00FE6036 /* Resources */,
+				27A6B1C207085D6F00FE6036 /* Sources */,
+				27A6B1C307085D6F00FE6036 /* Frameworks */,
+				27A6B1C407085D6F00FE6036 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMAdminTests;
+			productName = DMAdminTests;
+			productReference = 27A6B1C607085D6F00FE6036 /* DMAdminTests.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* DMAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27594BE90E634D3A009AE50D /* Build configuration list for PBXNativeTarget "DMAdmin" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				27CB074507086FEE0077E085 /* ShellScript */,
+				2717414B0712FABB00670D23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMAdmin;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DMAdmin;
+			productReference = 8D1107320486CEB800E47090 /* DMAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 27594BE80E634D3A009AE50D /* Build configuration list for PBXProject "DMAdmin" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DMAdmin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DMAdmin */,
+				27A6B1C507085D6F00FE6036 /* DMAdminTests */,
+				27AC4C9F070B1D0A005D729A /* CreateDiskImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A6B1C107085D6F00FE6036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A6B1C407085D6F00FE6036 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/local/bin/ukrun \"$BUILD_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\"";
+		};
+		27AC4CA2070B1DBA005D729A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			comments = "This shell script build phase invokes the CreateDiskImage.sh script in the top level of the source code directory.  That script uses the build settings defined in the target to build and configure a disk image.\n\nThe recognized build settings are:\n - DiskImageProduct -- Full path of the product that will be placed on the disk image\n";
+			files = (
+			);
+			inputPaths = (
+				CreateDiskImage.sh,
+				"${BUILD_PRODUCTS_DIR}/DMAdmin.app",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/DMAdmin.dmg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source CreateDiskImage.sh";
+		};
+		27CB074507086FEE0077E085 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A6B1C207085D6F00FE6036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272B7F3B072403A600AB3503 /* ArticleTest.m in Sources */,
+				272B7F400724040A00AB3503 /* DiskSessionTest.m in Sources */,
+				272B7F46072405A800AB3503 /* AsyncTest.m in Sources */,
+				272B7F49072405B500AB3503 /* MemberAccountTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27AC4CA1070B1D14005D729A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* DMAdmin */;
+			targetProxy = 27AC4CA0070B1D14005D729A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27594BDC0E634D3A009AE50D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		27594BDD0E634D3A009AE50D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		27594BDE0E634D3A009AE50D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		27594BDF0E634D3A009AE50D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Library/Frameworks,
+					/Users/mike/Applications/DotMacSDK,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DMAdmin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = DMAdmin;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		27594BE00E634D3A009AE50D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Library/Frameworks,
+					/Users/mike/Applications/DotMacSDK,
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DMAdmin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = DMAdmin;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		27594BE10E634D3A009AE50D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Library/Frameworks,
+					/Users/mike/Applications/DotMacSDK,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DMAdmin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = DMAdmin;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		27594BE20E634D3A009AE50D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Applications/DotMacSDK,
+					/Users/mike/Library/Frameworks,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "DMAdminTests-Info.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DMAdminTests;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		27594BE30E634D3A009AE50D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Applications/DotMacSDK,
+					/Users/mike/Library/Frameworks,
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "DMAdminTests-Info.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DMAdminTests;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		27594BE40E634D3A009AE50D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/mike/Applications/DotMacSDK,
+					/Users/mike/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "DMAdminTests-Info.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DMAdminTests;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+			};
+			name = Default;
+		};
+		27594BE50E634D3A009AE50D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DiskImageProduct = "${PROJECT_NAME}.app";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CreateDiskImage;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		27594BE60E634D3A009AE50D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DiskImageProduct = "${PROJECT_NAME}.app";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CreateDiskImage;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		27594BE70E634D3A009AE50D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DiskImageProduct = "${PROJECT_NAME}.app";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CreateDiskImage;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27594BE80E634D3A009AE50D /* Build configuration list for PBXProject "DMAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27594BDC0E634D3A009AE50D /* Development */,
+				27594BDD0E634D3A009AE50D /* Deployment */,
+				27594BDE0E634D3A009AE50D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27594BE90E634D3A009AE50D /* Build configuration list for PBXNativeTarget "DMAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27594BDF0E634D3A009AE50D /* Development */,
+				27594BE00E634D3A009AE50D /* Deployment */,
+				27594BE10E634D3A009AE50D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27594BEA0E634D3A009AE50D /* Build configuration list for PBXNativeTarget "DMAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27594BE20E634D3A009AE50D /* Development */,
+				27594BE30E634D3A009AE50D /* Deployment */,
+				27594BE40E634D3A009AE50D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27594BEB0E634D3A009AE50D /* Build configuration list for PBXAggregateTarget "CreateDiskImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27594BE50E634D3A009AE50D /* Development */,
+				27594BE60E634D3A009AE50D /* Deployment */,
+				27594BE70E634D3A009AE50D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
